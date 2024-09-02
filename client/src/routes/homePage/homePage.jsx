@@ -6,10 +6,7 @@ import { AuthContext } from "../../context/AuthContext";
 function HomePage() {
 
   // Accessing user info at home page.
-  const{currentUser} = useContext(AuthContext);
-
-  console.log(currentUser);
-  
+  const{currentUser} = useContext(AuthContext);  
 
   return (
     <div className="homePage">
